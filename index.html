@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>84Webz</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/reponsive.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </head>
+
+  <body data-spy="scroll">
+    <section id="header" class="sticky-top">
+      <div class="container-fluid header-top d-none d-md-flex d-end">
+        <nav class="navbar d-end navbar-expand-md">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-language" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-content dropdown-languge">
+              <a href="#">VietNam</a>
+              <a href="#">EngLish</a>
+              <a href="#">Franch</a>
+            </div>
+          </div>
+          <div class="d-end" id="">
+            <ul class="navbar-nav d-end d-flex">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trung tâm hỗ trợ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Đăng nhập</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container-fluid header-extra d-none d-md-flex d-start">
+        <nav class="navbar navbar-expand-md px-0 py-0">
+          <div class="navbar-brand col-2">
+            <a class="logo" href="#">
+              84WEBZ
+              <!-- <img src="assets/images/Logoblack.png" alt="" /> -->
+            </a>
+          </div>
+          <div class="col-7 d-start nav-list" id="">
+            <ul class="navbar-nav d-flex">
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <a href="">Giải pháp thương mại</a>
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                  <nav class="dropdown-content nav-drop-list">
+                    <h3>Bán hàng mọi lúc, mọi nơi</h3>
+                    <p>
+                      Nền tảng đầy đủ tính năng cho phép người bán dễ dàng xây
+                      dựng cửa hàng trực tuyến của họ, <br />bán hàng trên khắp
+                      thế giới, kết nối với những người theo dõi họ và mang đến
+                      trải nghiệm đa kênh liền mạch.
+                    </p>
+                    <div class="nav-drop-link">
+                      <ul>
+                        <li>Cửa hàng Trực tuyến</li>
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">Tính năng</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i
+                            class="fa fa-columns d-center"
+                            aria-hidden="true"
+                          ></i>
+                          <a href="#">Chủ đề cửa hàng</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">Thiết lập cửa hàng</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i
+                            class="fa fa-commenting-o d-center"
+                            aria-hidden="true"
+                          ></i>
+                          <a href="#">Câu hỏi thường gặp</a>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>Social Commerce</li>
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">Tính năng</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i
+                            class="fa fa-columns d-center"
+                            aria-hidden="true"
+                          ></i>
+                          <a href="#">Câu hỏi thường gặp</a>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>Logistics</li>
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">SHOPLINE Logistics</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i
+                            class="fa fa-columns d-center"
+                            aria-hidden="true"
+                          ></i>
+                          <a href="#">Ninjavan</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">GHTK</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <a href="">Bảng giá</a>
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                  <nav class="dropdown-content second nav-drop-list">
+                    <h3>Bảng giá</h3>
+                    <p>
+                      <br />Không biết chắc chắn nên bắt đầu từ đâu ? Hãy liên
+                      lạc với chuyên gia tư vấn Thương Mại Điện Tử ngay hôm nay
+                      để giúp bạn tìm ra để giúp bạn tìm ra kế hoạch hoàn hảo và
+                      sự kết <br />hợp mô-đun phù hợp nhất với nhu cầu kinh
+                      doanh của bạn.
+                    </p>
+                    <div class="nav-drop-link">
+                      <ul class="no-title">
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">Tính năng</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i
+                            class="fa fa-columns d-center"
+                            aria-hidden="true"
+                          ></i>
+                          <a href="#">Chủ đề cửa hàng</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <a href="">Giới thiệu sản phẩm</a>
+                  </button>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <a href="">Tài nguyên</a>
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                  <nav class="dropdown-content third nav-drop-list">
+                    <h3>Bán hàng mọi lúc, mọi nơi</h3>
+                    <p>
+                      Cộng đồng SHOPLINE nhằm mục đích xây dựng một hệ sinh thái
+                      <br />thương mại tích cực để giáo dục, truyền cảm hứng và
+                      kết nối <br />với những người bán hàng của chúng tôi!
+                    </p>
+                    <div class="nav-drop-link">
+                      <ul>
+                        <li>Cửa hàng Trực tuyến</li>
+                        <li class="flex-wrap d-flex">
+                          <i
+                            class="fa fa-columns d-center"
+                            aria-hidden="true"
+                          ></i>
+                          <a href="#">Thiết lập cửa hàng</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">Chủ đề cửa hàng</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i
+                            class="fa fa-commenting-o d-center"
+                            aria-hidden="true"
+                          ></i>
+                          <a href="#">Câu hỏi thường gặp</a>
+                        </li>
+                        <li class="flex-wrap d-flex">
+                          <i class="fa fa-cog d-center" aria-hidden="true"></i>
+                          <a href="#">Học viện SHOPONLINE</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="button-test d-center col-3">
+            <a class="d-center" href="">Dùng thử miễn phí</a>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <div class="app-content">
+      <div class="header-push"></div>
+      <section class="section-hero">
+        <div class="container">
+          <div class="hero-caption">
+            <h1>Câu chuyện của khách hàng</h1>
+            <h2>
+              Câu chuyện của những thương hiệu đã tin dùng dịch vụ SHOPLINE, xây
+              dựng thương hiệu của bạn chưa bao giờ dễ dàng đến vậy!
+            </h2>
+          </div>
+        </div>
+      </section>
+      <div class="hr-wave"></div>
+      <section class="section-Qlink">
+        <div class="">
+          <div class="container">
+            <div class="row-catalog d-between">
+              <ul class="nav d-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="">Thương nhân Nổi bật</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Thời trang và Phụ kiện</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Cửa hàng tạp phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Sản phẩm làm đẹp và Gia dụng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Quà tặng và Hàng cao cấp</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Giải trí và Sở thích</a>
+                </li>
+              </ul>
+              <div class="switch-list">
+                <button>
+                  <i class="fa fa-th-large"></i>
+                </button>
+                <button>
+                  <i class="fa fa-th-list"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="section-show">
+        <div class="container">
+          <div class="news d-flex flex-wrap">
+            <div class="col-md-4">
+              <div class="item">
+                <div class="pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                </div>
+                <div class="bg">
+                  <div class="caption">
+                    <h3 class="item-title">
+                      ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu này
+                      tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn đấu
+                      cho sự hoàn hảo trong từng thiết kế, lựa chọn chất liệu và
+                      dịch vụ. Trong khi đó, chính sách giá cả của chúng tôi
+                      nhằm đáp ứng nhu cầu làm đẹp và thời trang ngày càng tăng
+                      của khách hàng.
+                    </h3>
+                  </div>
+                  <div class="row-btn">
+                    <a href="">
+                      <span>Chi tiết hơn</span>
+                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="section-client">
+        <div class="container">
+          <div class="row-client d-flex flex-wrap">
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card-client">
+                <div class="card-pic">
+                  <img src="assets/images/slide4.jpg" alt="" />
+                  <div class="card-caption">
+                    <div class="span-caption">
+                      <p>
+                        ROCOCO chuyên về các sản phẩm thời trang. Thương hiệu
+                        này tin rằng “Chất lượng quan trọng hơn Số lượng”. Phấn
+                        đấu cho sự hoàn hảo trong từng thiết kế, lựa chọn chất
+                        liệu và dịch vụ. Trong khi đó, chính sách giá cả của
+                        chúng tôi nhằm đáp ứng nhu cầu làm đẹp và thời trang
+                        ngày càng tăng của khách hàng.
+                      </p>
+                    </div>
+                    <div class="row-button">
+                      <a class="button-orange" href="">
+                        <span>chi tiết hơn</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <h5>ROCOCO</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
