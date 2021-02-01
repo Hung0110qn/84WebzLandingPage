@@ -4,73 +4,24 @@ const listmenu = document.querySelector(".list-menu");
 // var offset = 80;
 
 $(document).ready(function () {
-  $(".change-bg").click(function () {
-    console.log("aaa");
-    $("body").toggleClass("changeBG");
-  });
-  // $('.slider-for').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   arrows: false,
-  //   fade: true,
-  //   dots:false,
-  //   autoplay:false,
-  //   asNavFor: '.slider-nav'
-  // });
-  // $('.slider-nav').slick({
-  //   slidesToShow: 6,
-  //   slidesToScroll: 1,
-  //   asNavFor: '.slider-for',
-  //   dots: false,
-  //   centerMode: true,
-  //   focusOnSelect: true,
-  //   arrows: false,
+  // $(".change-bg").click(function () {
+  //   console.log("aaa");
+  //   $("body").toggleClass("changeBG");
   // });
   $(".slide").slick({
     
     infinite: true,
-    autoplay: false,
-    dots:true,
+    autoplay: true,
+    dots:false,
     
     slidesToShow: 1,
     pauseOnHover: true,
-    arrows: false,
+    arrows: true,
     customPaging : function(slider, i) {
       var thumb = $(slider.$slides[i]).data();
       return `<div class="number"><a class="number1">${i+1}</a> </div>`;
       },
   });
-  // $(".btn1").hover(
-  //   function(){
-  //   $("p1").show();
-  //   }, 
-  //   function(){
-  //   $("p1").hide();
-  // });
-  // $(".btn2").hover(
-  //   function(){
-  //   $("p2").show();
-  //   }, 
-  //   function(){
-  //   $("p2").hide();
-  // });
-  // $(".btn3").hover(
-  //   function(){
-  //   $("p3").show();
-  //   },
-  //   function(){
-  //   $("p3").hide();
-  // });
-  // $("p3").hover(
-  //   function(){
-  //   $("p3").show();
-  //   },
-  //   function(){
-  //   $("p3").hide();
-  // });
-  // $(".navbar-nav>li>a").on("click", function () {
-  //   $(".navbar-collapse").collapse("hide");
-  // });
   $(".menu-mobile .menu ul .list-menu").on("click", function () {
     $("nav").removeClass("open");
     $("button").removeClass("open");
